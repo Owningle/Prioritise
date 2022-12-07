@@ -1,0 +1,13 @@
+{
+    "startupPeriod": 10,
+    "processes": {
+        "OVRServer_x64.exe": {
+            "priority": "high",
+            "interval": 10
+        },
+        "audiodg.exe": {
+            "priority": "above_normal",
+            "interval": 0
+        }
+    }
+}

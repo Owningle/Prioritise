@@ -1,0 +1,1 @@
+schtasks /create /sc ONLOGON /tn "Prioritise" /tr %~dp0start.bat /rl HIGHEST
